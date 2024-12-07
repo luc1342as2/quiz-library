@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz App</h1>
+        <div id="category-selection">
+            <h2>Select a Category</h2>
+            <select id="category-select">
+                <option value="STEM">STEM</option>
+                <option value="Health Oriented Education">Health Oriented Education</option>
+                <option value="History">History</option>
+                <option value="Astronomy">Astronomy</option>
+                <option value="Biomedical Sciences">Biomedical Sciences</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="Computer Programming">Computer Programming</option>
+                <option value="Computer Engineering">Computer Engineering</option>
+                <option value="Social Education">Social Education</option>
+                <option value="Arts and Humanities">Arts and Humanities</option>
+                <option value="Business and Commerce">Business and Commerce</option>
+                <option value="Social Science">Social Science</option>
+            </select>
+        </div>
+        <div id="quiz-container">
+            <div id="question-container"></div>
+            <div id="answers-container"></div>
+            <button id="next-button" onclick="nextQuestion()">Next Question</button>
+        </div>
+        <div id="result-container"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
+    <script src="js/main.js"></script>
+</body>
+</html>
